@@ -10,7 +10,7 @@ namespace ModularInput
 
 		public override void Init(string name = null)
 		{
-			base.Init("Critical Context");
+			base.Init(name ?? "Critical Context");
 		}
 
 		public override bool OnInput()
